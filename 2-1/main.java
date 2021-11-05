@@ -1,4 +1,4 @@
-public class Lesson1 {
+public class Main {
     public static void main(String[] args) {
         
         int firstNum = 10;

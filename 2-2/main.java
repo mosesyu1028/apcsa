@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         
         System.out.println("Calculation is equal to: " + (19 % 5 * 3 + 14 / 5)); // 4 * 3 + 2 = 14
