@@ -8,10 +8,10 @@ public class StepTracker
 	//Constructors
 	public StepTracker()
 	{
-			dailySteps = 0;
-			totalSteps = 0;
-			activeDays = 0;
-			totalDays = 0;
+		dailySteps = 0;
+		totalSteps = 0;
+		activeDays = 0;
+		totalDays = 0;
 	}
 
 	public StepTracker (int daily, int total, int active, int days)
