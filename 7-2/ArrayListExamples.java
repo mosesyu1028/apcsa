@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ArrayListExamples {
 
     // Why ArrayList over array
@@ -8,15 +10,15 @@ public class ArrayListExamples {
 
     public static void main(String args[]) {
 
-        int[] arr;
+        int[] arr = {};
         ArrayList<Integer> integerList = new ArrayList<Integer>(); // initialization
 
-        // strlen = str.length();
-        arrlen = arr.length;
-        arrListlen = integerList.size();
+        // int strlen = str.length();
+        int arrlen = arr.length;
+        int arrListlen = integerList.size();
 
-        arrNum3 = arr[3];
-        ArrListNum3 = integerList.get(3);
+        int arrNum3 = arr[3];
+        int ArrListNum3 = integerList.get(3);
 
         arr[4] = 10;
         integerList.set(4, 10); // set(index, element)
@@ -117,7 +119,7 @@ public class ArrayListExamples {
         ArrayList<Integer> returnList = new ArrayList<Integer>();
 
         for (int i = 0; i < arr.length; i++) {
-            returnList.set(i, );
+            returnList.set(i, arr[i]);
         }
         return returnList;
     }
