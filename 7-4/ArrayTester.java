@@ -1,5 +1,14 @@
 public class ArrayTester {
 
+    // helper functions
+    public static boolean hasAllValues(int[] arr1, int[] arr2) {
+        /* implementation not shown */
+    }
+
+    public static boolean containsDuplicates(int[] arr) {
+        /* implementation not shown */
+    }
+
     // (a)
     public static int[] getColumn(int[][] arr2D, int c) {
         int[] result = new int[arr2D.length];
@@ -8,15 +17,6 @@ public class ArrayTester {
             result[r] = arr2D[r][c];
         }
         return result;
-    }
-
-    // helper functions
-    public static boolean hasAllValues(int[] arr1, int[] arr2) {
-        /* implementation not shown */
-    }
-
-    public static boolean containsDuplicates(int[] arr) {
-        /* implementation not shown */
     }
 
     // (b)
