@@ -24,7 +24,17 @@ public class Position {
     }
 
     // (b)
-    public static Position[][] getSuccessorArray(int[][] intArr) {
+    public static Position[][] getSuccessorArrray (int[][] intArr) {
+        Position[][] successors = new Position[intArr.length][intArr[0].length];
 
+        for (int r = 0; r < intArr.length; r++) {
+            for (int c = 0; c < intArr[r].length; c++) { // r can be replaced by 0
+
+                successors[r][c] = findPosition(intArr[r][c] + 1, intArr);
+
+            }
+
+        }
+        return successors;
     }
 }
