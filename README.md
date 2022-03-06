@@ -37,7 +37,7 @@
 [DONE] 2018 Q3 (incl. `interface`)  
 2016 Q1a  
 2015 Q2 (note: it's literally wordle)  
-2015 Q4b (part a incl. `interface`)
+2015 Q4b (part a incl. `interface`)  
 
 #### Strings
 [DONE] 2019 Q3 (note: part b is incomplete)  
