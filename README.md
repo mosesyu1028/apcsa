@@ -28,7 +28,7 @@
 [DONE] 2018 Q1  
 [DONE] 2017 Q3  
 2016 Q1b  
-2016 Q2b (minimal)
+2016 Q2b (minimal)  
 2015 Q1bc  
 
 #### Writing classes
