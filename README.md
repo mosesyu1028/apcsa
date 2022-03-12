@@ -20,6 +20,7 @@
 2022-02-17  
 2022-02-23  
 2022-03-02  
+2022-03-12  
 
 ## Sorted Past FRQ
 
@@ -27,24 +28,24 @@
 [DONE] 2019 Q1  
 [DONE] 2018 Q1  
 [DONE] 2017 Q3  
-2016 Q1b  
-2016 Q2b (minimal)  
+[DONE] 2016 Q1b  
+[DONE] 2016 Q2b (minimal)  
 2015 Q1bc  
 
 #### Writing classes
 [DONE] 2019 Q2  
 [DONE] 2017 Q2 (incl. `interface`)  
 [DONE] 2018 Q3 (incl. `interface`)  
-2016 Q1a  
+[DONE] 2016 Q1a  
 2015 Q2 (note: it's literally wordle)  
 2015 Q4b (part a incl. `interface`)  
 
 #### Strings
-[DONE] 2019 Q3 (note: part b is incomplete)  
+[DONE] 2019 Q3  
 [DONE] 2018 Q2 (minimal)  
 [DONE] 2018 Q3 (incl. `interface`)  
 [DONE] 2017 Q3  
-2016 Q1 (minimal)  
+[DONE] 2016 Q1 (minimal)  
 2016 Q2  
 2016 Q4  
 2015 Q2  
