@@ -34,6 +34,25 @@ public class StringFormatter {
 
     // (c)
     public static String format(List<String> wordList, int formattedLen) {
+        String formatted = "";
 
+        int leftoverSpaces = leftoverSpaces(wordList, formattedLen);
+        int gapWidth = basicGapWidth(wordList, formattedLen);
+
+        for (int w = 0; w < wordList.size() - 1; w++) {
+            formatted += wordList.get(w);
+
+            for (int g = 0; g < gapWidth; g++) {
+                formatted += " ";
+            }
+            if (leftoverSpaces > 0) {
+                formatted += " ";
+                leftoverSpaces--;
+            }
+
+        }
+        formatted += wordList.get(wordList.size() - 1);
+
+        return formatted;
     }
 }
